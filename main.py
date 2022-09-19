@@ -26,4 +26,5 @@ with sync_playwright() as p:
     time.sleep(40)
     pagina.locator('xpath=//*[@id="maskedImage"]').click()
     time.sleep(2)
+    pyautogui.alert("Operação finalizada com sucesso!")
 
